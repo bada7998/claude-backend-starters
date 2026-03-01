@@ -4,7 +4,9 @@
       "Bash"
     ]
   },
-  "language": "Korean",
+  "enabledMcpjsonServers": [
+    "context7"
+  ],
   "hooks": {
     "PostToolUse": [
       {
@@ -17,5 +19,7 @@
         ]
       }
     ]
-  }
+  },
+  "language": "Korean",
+  "enableAllProjectMcpServers": true
 }
